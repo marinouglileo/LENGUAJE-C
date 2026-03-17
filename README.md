@@ -48,11 +48,6 @@ Seleccione una opción:
 Ingrese la cantidad: 100  
 Resultado: 775 Quetzales
 
-## Estructura del proyecto
-proyecto_c/  
-│── main.cpp  
-│── README.md  
-
 
 ## Datos del autor
 - Nombre: Marino Mendoza
