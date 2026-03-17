@@ -1,19 +1,60 @@
-# LENGUAJE-C
+# PROYECTO C
 
----
+## conversor en C++
 
 ## Descripción
-Este proyecto contiene programas desarrollados en **Lenguaje C** como parte del aprendizaje de programación estructurada.  
-Incluye ejercicios donde se utilizan variables, estructuras condicionales, ciclos y lógica de programación.
+Este proyecto es un programa desarrollado en C++ que permite realizar conversiones entre diferentes divisas. El programa funciona mediante una interfaz en consola, donde el usuario ingresa la cantidad y selecciona el tipo de conversión, mostrando el resultado en pantalla. Este proyecto fue creado con fines académicos para practicar estructuras condicionales, entrada/salida de datos y uso de funciones matemáticas en C++.
+
+## Tecnologías utilizadas
+- Lenguaje: C++
+- Compilador: g++ (GNU Compiler Collection)
+- Entorno de desarrollo: Visual Studio / Visual Studio Code
+- Sistema operativo: Compatible con Linux, Windows y macOS
 
 ## Prerrequisitos
-Para ejecutar los programas es necesario tener instalado:
 
-- Compilador de C (GCC)
-- Git
-- Editor de código (Visual Studio Code u otro)
+### En Linux (Ubuntu/Debian)
+sudo apt update  
+sudo apt install g++
 
-En sistemas Linux se puede instalar GCC con:
+### En Windows
+- Instalar MinGW o usar WSL (Windows Subsystem for Linux)
+- Verificar instalación:
+g++ --version
 
-```bash
-sudo apt install build-essential
+### En macOS
+brew install gcc
+
+## Pasos para su ejecución
+1. Clonar el repositorio:
+git clone https://github.com/marinouglileo/LENGUAJE-C.git
+
+2. Ingresar al directorio del proyecto:
+cd proyecto_c
+
+3. Compilar el programa:
+g++ main.cpp -o conversor
+
+4. Ejecutar el programa:
+./conversor
+
+5. Seguir las instrucciones en pantalla
+
+## Ejemplo de uso
+Seleccione una opción:
+1. Dólares a Quetzales
+2. Euros a Quetzales
+
+Ingrese la cantidad: 100  
+Resultado: 775 Quetzales
+
+## Estructura del proyecto
+proyecto_c/  
+│── main.cpp  
+│── README.md  
+
+
+## Datos del autor
+- Nombre: Marino Mendoza
+- Correo: 26005740@galileo.edu  
+- Carnet: 26005740
